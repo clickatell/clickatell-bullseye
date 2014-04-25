@@ -1,0 +1,81 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        tools:context=".MainActivity" >
+
+        <EditText
+            android:id="@+id/firstname"
+            style="@style/InputFields"
+            android:hint="@string/text_firstname"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/surname"
+            style="@style/InputFields"
+            android:hint="@string/text_surname"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/mobile"
+            style="@style/InputFields.divider"
+            android:digits="0123456789"
+            android:hint="@string/text_mobile"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/email"
+            style="@style/InputFields"
+            android:hint="@string/text_email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/password"
+            style="@style/InputFields"
+            android:hint="@string/text_password"
+            android:inputType="textVisiblePassword" />
+
+        <Spinner
+            android:id="@+id/country"
+            style="@style/InputFields"
+            android:layout_height="40dip" />
+
+        <EditText
+            android:id="@+id/coupon"
+            style="@style/InputFields"
+            android:hint="@string/text_coupon" />
+
+        <ImageView
+            android:id="@+id/captcha_image"
+            style="@style/InputFields"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/captcha" />
+
+        <EditText
+            android:id="@+id/captcha_text"
+            style="@style/InputFields"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/captcha" />
+
+        <CheckBox
+            android:id="@+id/terms"
+            style="@style/InputFields"
+            android:linksClickable="false"
+            android:text="@string/text_terms" />
+
+        <Button
+            android:id="@+id/button_submit"
+            style="@style/InputFields.divider"
+            android:text="@string/action_submit" />
+    </LinearLayout>
+
+</ScrollView>

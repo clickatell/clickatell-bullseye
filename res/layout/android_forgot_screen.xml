@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/captcha_image"
+            style="@style/InputFields"
+            android:layout_height="64dp"
+            android:contentDescription="@string/captcha"
+            android:src="@drawable/ic_launcher" />
+
+        <EditText
+            android:id="@+id/captcha_code"
+            style="@style/InputFields"
+            android:hint="@string/captcha" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/email"
+            style="@style/InputFields"
+            android:hint="@string/text_email"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:id="@+id/reset"
+            style="@style/InputFields.divider"
+            android:text="@string/action_reset" />
+    </LinearLayout>
+</ScrollView>

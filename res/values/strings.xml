@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BullsEye</string>
+    
+    <string name="action_logout">Logout</string>
+    <string name="action_login">Login</string>
+    <string name="action_open">Open</string>
+    <string name="action_close">Close</string>
+    <string name="action_register">I do not have an account</string>
+    <string name="action_submit">Submit</string>
+    <string name="action_forgot">Forgot Password</string>
+    <string name="action_reset">Reset</string>
+    <string name="send">Fire</string>
+    <string name="test_mode">Test Mode (No Message Sending)</string>
+    <string name="time_delay">Time Delay</string>
+    
+    <string name="text_credits">Credits</string>
+    <string name="text_character_count">characters available</string>
+    <string name="text_firstname">First Name</string>
+    <string name="text_surname">Last Name</string>
+    <string name="text_company">Company</string>
+    <string name="text_password">Password</string>
+    <string name="text_mobile">Mobile Number</string>
+    <string name="text_country">Country</string>
+    <string name="text_email">Email Address</string>
+    <string name="text_coupon">Coupon Code [Optional]</string>
+    <string name="text_terms">Agree to the <a href="http://www.clickatell.com/sdk/terms.txt">Terms and Conditions</a></string>
+    <string name="text_api_id">API ID</string>
+    <string name="captcha">Please retype above code</string>
+    <string name="type_msg">Type your message</string>
+    
+    <string name="error_terms_not_selected">The terms and conditions has not being selected.</string>
+    <string name="error_number_too_short">The entered mobile number is too short.</string>
+    <string name="error_email_not_valid">The entered email address is not valid.</string>
+    <string name="error_password_too_short">The entered password is too short.</string>
+    <string name="error_password_needs_number">The entered password needs at least one number.</string>
+    <string name="error_password_needs_letter">The entered password needs at least one letter.</string>
+    <string name="error_firstname_tooshort">The entered First Name is too short.</string>
+    <string name="error_surname_tooshort">The entered Last Name is too short.</string>
+    <string name="error_account_not_exist">These account details do not exist.</string>
+    <string name="error_account_not_email_activate">Your account has not being activated, please check your email.</string>
+    <string name="text_account_details">Account Details</string>
+    <string name="text_buy_credits">Buy Credits</string>
+    <string name="text_balance">Balance</string>
+    
+    <string-array name="options">
+        <item>Messaging</item>
+        <item>Account Details</item>
+        <item>Manage Contacts</item>
+        <item>Buy Credits</item>
+    </string-array>
+
+</resources>

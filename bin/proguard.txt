@@ -1,0 +1,16 @@
+# view res/layout/activity_main_screen.xml #generated:1
+# view res/layout/drawer_layout.xml #generated:1
+-keep class android.support.v4.widget.DrawerLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.clickatell.bullseye.ForgotScreen { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.clickatell.bullseye.LoginScreen { <init>(...); }
+
+# view AndroidManifest.xml #generated:19
+-keep class com.clickatell.bullseye.MainScreen { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class com.clickatell.bullseye.RegisterScreen { <init>(...); }
+

@@ -1,0 +1,97 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollbars="vertical" >
+
+        <Spinner
+            android:id="@+id/contacts_group"
+            style="@style/InputFields"
+            android:layout_width="match_parent"
+            android:layout_height="40dip" />
+
+        <EditText
+            android:id="@+id/message"
+            style="@style/InputFields"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:hint="@string/type_msg"
+            android:inputType="textLongMessage|textMultiLine"
+            android:minLines="3" />
+
+        <TextView
+            android:id="@+id/counter"
+            style="@style/InputFields"
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:hint="@string/text_character_count"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <LinearLayout
+            style="@style/InputFields"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100" >
+
+            <TextView
+                android:id="@+id/count_contacts"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="90"
+                android:text="" />
+
+            <ImageButton
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:contentDescription="@string/send"
+                android:scaleType="fitCenter"
+                android:src="@android:drawable/ic_menu_send"
+                android:text="@string/send" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/status"
+            style="@style/InputFields"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/time_delay" />
+
+        <LinearLayout
+            style="@style/InputFields"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:weightSum="100">
+
+            <NumberPicker
+                android:id="@+id/np_hours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50" />
+
+            <NumberPicker
+                android:id="@+id/np_minutes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
